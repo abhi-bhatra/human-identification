@@ -47,6 +47,6 @@ Type “help”, “copyright”, “credits” or “license”, for more infor
 ## Code Description
 The code basically uses OpenCV library. As mentioned earlier, the code uses the GStreamer pipeline to create an interface between the camera and the OS. The pipeline is used to create a VideoCapture() object.
 
-Each image frame from the camera live stream is processed and tested for face detection. The code implements an additional step of converting the color image to a grayscale image since the color does not determine the features. This avoids computational overheads and enhances performance. Once confirmed if the image contains a pedestrian, a rectangle is drawn around the boundaries.
+Each image frame from the camera live stream is processed and tested for object detection. The code implements an additional step of converting the color image to a grayscale image since the color does not determine the features. This avoids computational overheads and enhances performance. Once confirmed if the image contains a pedestrian, a rectangle is drawn around the boundaries.
 
 
